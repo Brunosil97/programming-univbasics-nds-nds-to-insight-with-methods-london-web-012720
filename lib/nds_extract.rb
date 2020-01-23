@@ -11,6 +11,7 @@ def gross_for_director(director_data)
     index += 1 
   end 
   total 
+  binding.pry
 end
 
 def directors_totals(nds)
@@ -22,6 +23,5 @@ def directors_totals(nds)
    director_index += 1 
 end
 result 
-binding.pry
 end
 
